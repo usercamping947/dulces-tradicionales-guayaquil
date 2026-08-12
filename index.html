@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Revalorización de Dulces Tradicionales de Guayaquil | Proyecto de Grado</title>
+  <meta name="description" content="Proyecto de investigación académica dedicado a la preservación, documentación y revalorización del patrimonio gastronómico de Guayaquil. Estudio enfocado en los Borrachitos y el Dulce de Pechiche.">
+  <meta name="keywords" content="Guayaquil, dulces tradicionales, Borrachitos, Dulce de Pechiche, patrimonio gastronomico, Escuela de los Chefs, Ecuador, investigacion gastronomica">
+  <meta name="author" content="Escuela de los Chefs - Gastronomía">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <!-- AOS Scroll Animations CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom Premium CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. LOADING PRELOADER SCREEN
+       ========================================================================== -->
+  <div id="preloader">
+    <div class="loader-logo">GUAYAQUIL <span>RAÍCES</span></div>
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- ==========================================================================
+       2. SCROLL PROGRESS INDICATOR
+       ========================================================================== -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="progressBar"></div>
+  </div>
+
+  <!-- ==========================================================================
+       3. STICKY GLASSMORPHISM NAVIGATION BAR
+       ========================================================================== -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#home">GUAYAQUIL<span>.RAÍCES</span></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Proyecto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sweets">Historias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#recipes">Recetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#media">Archivo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#interviews">Entrevistas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#authors">Autores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <!-- Sun / Moon Dark Mode Toggle Button -->
+            <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark/light mode">
+              <i class="fa-solid fa-moon"></i>
+              <i class="fa-solid fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       4. HERO SECTION (CINEMATIC BACKGROUND & OVERLAY)
+       ========================================================================== -->
+  <section id="home" class="hero-section">
+    <div class="hero-background"></div>
+    <div class="hero-overlay"></div>
+    
+    <div class="container text-center hero-content">
+      <span class="hero-tagline" data-aos="fade-down" data-aos-delay="200">Investigación Académica</span>
+      
+      <!-- Editable Project Title -->
+      <h1 class="hero-title serif-font" data-aos="fade-up" data-aos-delay="400">
+        Dulces Tradicionales de Guayaquil: Borrachitos y Dulce de Pechiche
+      </h1>
+      
+      <!-- Editable Subtitle -->
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="600">
+        "Fomentando la tradición culinaria de Guayaquil a través de la investigación histórica, documentación, recetas y material audiovisual."
+      </p>
+      
+      <div class="d-flex flex-column flex-sm-row justify-content-center gap-3" data-aos="fade-up" data-aos-delay="800">
+        <a href="#about" class="btn btn-premium btn-gold">Explorar Proyecto</a>
+        <a href="#sweets" class="btn btn-premium btn-outline-white">Conocer las Historias</a>
+      </div>
+    </div>
+    
+    <div class="hero-scroll-indicator">
+      <span>Deslizar</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. ABOUT SECTION (ACADEMIC ABSTRACT / PROYECTO)
+       ========================================================================== -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center" data-aos="fade-up">
+          <div class="editorial-header">
+            <span class="academic-roman">I. RESUMEN ACADÉMICO</span>
+            <h2 class="editorial-title">Sobre el Proyecto de Investigación</h2>
+            <p class="editorial-subtitle">Preservación de la Identidad Gastronómica</p>
+            <div class="editorial-divider"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row align-items-center mt-4">
+        <!-- Editable About Text (Academic tone, Editorial columns) -->
+        <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
+          <p class="academic-lead">
+            Este proyecto de titulación nace con el firme propósito de revalorizar dos preparaciones fundamentales en la memoria dulce de Guayaquil: los Borrachitos y el Dulce de Pechiche.
+          </p>
+          <p class="editorial-body">
+            En el contexto de la globalización y la modernización culinaria, muchas recetas tradicionales se encuentran en peligro de desaparición. Este estudio aborda la revalorización de estos dulces no solo como un acto nostálgico, sino como un riguroso proceso de documentación técnica e histórica que permita salvaguardar la memoria organoléptica y antropológica de la región.
+          </p>
+        </div>
+        
+        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+          <div class="framed-block">
+            <p class="editorial-body">
+              La metodología de este proyecto se basa en la investigación y documentación de información histórica y gastronómica relacionada con los borrachitos y el dulce de pechiche. Para ello, se recopilaron conocimientos y experiencias de profesionales vinculados a la gastronomía, complementados con el análisis y la estandarización de sus procesos de elaboración.
+            </p>
+            <p class="editorial-body mb-0">
+              A partir de este trabajo, se desarrollaron fichas técnicas, recetas detalladas, registros audiovisuales y material fotográfico que permiten presentar estas preparaciones de una manera clara, actual y accesible. Esta plataforma reúne los resultados de la investigación con el propósito de contribuir a la revalorización, difusión y reconocimiento de estos dos dulces tradicionales de Guayaquil.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. TRADITIONAL SWEETS SECTION (BORRACHITOS & DULCE DE PECHICHE)
+       ========================================================================== -->
+  <section id="sweets" class="section-padding bg-secondary-color" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center" data-aos="fade-up">
+          <div class="editorial-header">
+            <span class="academic-roman">II. DULCES TRADICIONALES</span>
+            <h2 class="editorial-title">Revalorización de los Dulces Tradicionales</h2>
+            <p class="editorial-subtitle">Conociendo la historia y elaboraciÓn de los borrachitos y el dulce de pechiche.</p>
+            <div class="editorial-divider"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Sweet 1: BORRACHITOS -->
+      <div class="row mb-5 align-items-stretch" data-aos="fade-up">
+        <div class="col-lg-5 px-0">
+          <div class="img-zoom-container h-100">
+            <!-- EDITABLE IMAGE: Borrachitos Image -->
+            <img src="assets/BORRACHITOS-IMAGEN.jpeg" alt="Borrachitos tradicionales de Guayaquil" class="h-100">
+          </div>
+        </div>
+        <div class="col-lg-7 px-0 d-flex flex-column justify-content-between">
+          <div class="sweet-content sweet-card h-100">
+            <div class="left-aligned">
+              <span class="academic-roman text-start">Estudio Culinario A</span>
+              <h3 class="serif-font mb-3">Los Borrachitos</h3>
+              <p class="academic-lead text-start mb-4">Bocados esponjosos impregnados en almíbar de Ron.</p>
+            </div>
+            
+            <!-- Academic Tabs for Borrachitos -->
+            <ul class="nav nav-tabs academic-tabs" id="borrachitosTabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="b-historia-tab" data-bs-toggle="tab" data-bs-target="#b-historia" type="button" role="tab" aria-controls="b-historia" aria-selected="true">Historia</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="b-carac-tab" data-bs-toggle="tab" data-bs-target="#b-carac" type="button" role="tab" aria-controls="b-carac" aria-selected="false">Características</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="b-ing-tab" data-bs-toggle="tab" data-bs-target="#b-ing" type="button" role="tab" aria-controls="b-ing" aria-selected="false">Ingredientes</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="b-curi-tab" data-bs-toggle="tab" data-bs-target="#b-curi" type="button" role="tab" aria-controls="b-curi" aria-selected="false">Curiosidades</button>
+              </li>
+            </ul>
+            
+            <div class="tab-content" id="borrachitosTabsContent">
+              <!-- EDITABLE Historia -->
+              <div class="tab-pane fade show active tab-pane-content" id="b-historia" role="tabpanel" aria-labelledby="b-historia-tab">
+                <h5>Raíces Coloniales y Mestizaje</h5>
+                <p>Los borrachitos forman parte de la tradición repostera de Guayaquil y presentan una marcada influencia española, vinculada a la llegada de pasteleros catalanes y a la introducción de técnicas e ingredientes propios de la repostería europea. Este dulce se caracteriza por su textura húmeda y por la incorporación de licor, elementos que contribuyeron a convertirlo en uno de los bocados dulces tradicionales de la ciudad.</p>
+                <div class="academic-reference-citation">Ref.: Granda, S. (2017). Guayaquil a fuego lento.</div>
+              </div>
+              <!-- EDITABLE Características -->
+              <div class="tab-pane fade tab-pane-content" id="b-carac" role="tabpanel" aria-labelledby="b-carac-tab">
+                <h5>Perfil Sensorial</h5>
+                <p>Se caracteriza por una textura húmeda y esponjosa, acompañada de un marcado dulzor y notas aromáticas provenientes de las especias empleadas durante su preparación. La incorporación de licor aporta un ligero matiz alcohólico que complementa y equilibra el perfil dulce del producto.</p>
+              </div>
+              <!-- EDITABLE Ingredientes -->
+              <div class="tab-pane fade tab-pane-content" id="b-ing" role="tabpanel" aria-labelledby="b-ing-tab">
+                <h5>Materia Prima Base</h5>
+                <ul>
+                  <li><strong>Harina de trigo:</strong> Aporta la estructura y permite obtener una textura esponjosa y adecuada para absorber el almíbar.</li>
+                  <li><strong>Ron blanco: (Puntas):</strong>Se incorpora al almíbar para aportar el carácter alcohólico y complementar el perfil dulce del producto.</li>
+                </ul>
+              </div>
+              <!-- EDITABLE Curiosidades -->
+              <div class="tab-pane fade tab-pane-content" id="b-curi" role="tabpanel" aria-labelledby="b-curi-tab">
+                <h5>Datos Históricos e Identidad</h5>
+                <p>Los Borrachitos forman parte de la tradición repostera de Guayaquil y se relacionan con la evolución de la pastelería de influencia española en la ciudad. Su presencia en la gastronomía guayaquileña los ha convertido en uno de los dulces tradicionales asociados a la identidad culinaria local.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Sweet 2: DULCE DE PECHICHE -->
+      <div class="row align-items-stretch" data-aos="fade-up">
+        <div class="col-lg-7 px-0 order-2 order-lg-1 d-flex flex-column justify-content-between">
+          <div class="sweet-content sweet-card h-100">
+            <div class="left-aligned">
+              <span class="academic-roman text-start">Estudio Culinario B</span>
+              <h3 class="serif-font mb-3">El Dulce de Pechiche</h3>
+              <p class="academic-lead text-start mb-4">Conserva espesa, brillante y oscura de la fruta silvestre *Vitex gigantea* cocida lentamente en melado de panela.</p>
+            </div>
+            
+            <!-- Academic Tabs for Dulce de Pechiche -->
+            <ul class="nav nav-tabs academic-tabs" id="pechicheTabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="p-historia-tab" data-bs-toggle="tab" data-bs-target="#p-historia" type="button" role="tab" aria-controls="p-historia" aria-selected="true">Historia</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="p-carac-tab" data-bs-toggle="tab" data-bs-target="#p-carac" type="button" role="tab" aria-controls="p-carac" aria-selected="false">Características</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="p-ing-tab" data-bs-toggle="tab" data-bs-target="#p-ing" type="button" role="tab" aria-controls="p-ing" aria-selected="false">Ingredientes</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="p-curi-tab" data-bs-toggle="tab" data-bs-target="#p-curi" type="button" role="tab" aria-controls="p-curi" aria-selected="false">Curiosidades</button>
+              </li>
+            </ul>
+            
+            <div class="tab-content" id="pechicheTabsContent">
+              <!-- EDITABLE Historia -->
+              <div class="tab-pane fade show active tab-pane-content" id="p-historia" role="tabpanel" aria-labelledby="p-historia-tab">
+                <h5>Tradición Montuvia y Cocina Costeña</h5>
+                <p>El pechiche (Vitex gigantea) es una especie presente en el litoral ecuatoriano cuyo fruto forma parte de diversas preparaciones tradicionales. Su aprovechamiento gastronómico destaca especialmente en la elaboración artesanal del dulce de pechiche, una preparación arraigada en las familias de la región y vinculada a la gastronomía montuvia. Con el tiempo, este dulce también ha sido comercializado en mercados y espacios populares de distintas localidades de la Costa ecuatoriana.</p>
+                <div class="academic-reference-citation">Ref.: Gobierno Autónomo Descentralizado Municipal de Guayaquil. (2020). Memoria de la biodiversidad del cantón Guayaquil.</div>
+                <div class="academic-reference-citation">Ref.: Ortiz, T. (2020, 13 de marzo). El dulce de pechiche, una tradición en Vinces. Expreso.</div>
+              </div>
+              <!-- EDITABLE Características -->
+              <div class="tab-pane fade tab-pane-content" id="p-carac" role="tabpanel" aria-labelledby="p-carac-tab">
+                <h5>Perfil Sensorial</h5>
+                <p>El dulce de pechiche presenta una coloración oscura y una textura suave y densa, característica de la cocción prolongada del fruto con panela. En boca destaca un sabor dulce y concentrado, acompañado por las notas propias del pechiche, que aportan un ligero contraste entre matices dulces, ácidos y astringentes.</p>
+              </div>
+              <!-- EDITABLE Ingredientes -->
+              <div class="tab-pane fade tab-pane-content" id="p-ing" role="tabpanel" aria-labelledby="p-ing-tab">
+                <h5>Materia Prima Base</h5>
+                <ul>
+                  <li><strong>Frutos de Pechiche (*Vitex gigantea*):</strong> Cosechados en su estado de maduración óptimo (coloración morada oscura/negra).</li>
+                  <li><strong>Panela (Raspadura de caña):</strong> Edulcorante rústico que le otorga el tono oscuro y el sabor a melaza característico.</li>
+                  <li><strong>Clavo de olor y pimienta de olor:</strong> Aromatizantes tradicionales indispensables en su cocción lenta.</li>
+                </ul>
+              </div>
+              <!-- EDITABLE Curiosidades -->
+              <div class="tab-pane fade tab-pane-content" id="p-curi" role="tabpanel" aria-labelledby="p-curi-tab">
+                <h5>Una preparación de temporada</h5>
+                <p>La elaboración tradicional del dulce de pechiche está vinculada a la disponibilidad estacional del fruto. Su preparación requiere una cocción prolongada junto con panela, proceso que permite concentrar los sabores y obtener la característica textura y coloración oscura del dulce.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 px-0 order-1 order-lg-2">
+          <div class="img-zoom-container h-100">
+            <!-- EDITABLE IMAGE: Dulce de Pechiche Image -->
+            <img src="assets/PECHICHE-IMAGEN.jpeg" alt="Dulce de pechiche tradicional de Guayaquil" class="h-100">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. RECIPES SECTION (EDITORIAL TECHNIQUE CARDS)
+       ========================================================================== -->
+  <section id="recipes" class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center" data-aos="fade-up">
+          <div class="editorial-header">
+            <span class="academic-roman">III. RECETARIO TRADICIONAL</span>
+            <h2 class="editorial-title">Fichas de Preparación Culinaria</h2>
+            <p class="editorial-subtitle">Preparaciones, ingredientes y técnicas de elaboración de los dulces estudiados</p>
+            <div class="editorial-divider"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row g-5">
+        
+        <!-- Recipe 1: BORRACHITOS (EDITABLE) -->
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="recipe-card h-100">
+            <img src="assets/BORRACHITOS-IMAGEN.jpeg" alt="Receta de Borrachitos" class="recipe-header-img">
+            <div class="recipe-body">
+              <h3 class="serif-font mb-4">Borrachitos</h3>
+              
+              <!-- Recipe Metadata Grid -->
+              <div class="recipe-meta-grid">
+                <div class="recipe-meta-item">
+                  <span class="recipe-meta-label">Prep.</span>
+                  <span class="recipe-meta-value">No especificado</span>
+                </div>
+                <div class="recipe-meta-item">
+                  <span class="recipe-meta-label">Cocción</span>
+                  <span class="recipe-meta-value">15 Min a 170 °C</span>
+                </div>
+                <div class="recipe-meta-item">
+                  <span class="recipe-meta-label">Dificultad</span>
+                  <span class="recipe-meta-value">Medio</span>
+                </div>
+                <div class="recipe-meta-item">
+                  <span class="recipe-meta-label">Rendimiento</span>
+                  <span class="recipe-meta-value">20 Uds</span>
+                </div>
+              </div>
+              
+              <!-- Ingredients -->
+              <h4 class="recipe-subtitle">Ingredientes</h4>
+              <ul class="ingredients-list mb-4">
+                <li><span>Harina de trigo</span> <span class="quantity">100g</span></li>
+                <li><span>Polvo para hornear</span> <span class="quantity">3 g</span></li>
+                <li><span>Azúcar blanca</span> <span class="quantity">60g</span></li>
+                <li><span>Huevos frescos</span> <span class="quantity">110 g</span></li>
+                <li><span>Mntequilla sin sal</span> <span class="quantity">60 g </span></li>
+                <li><span>Aguardiente de caña (o Ron blanco)</span> <span class="quantity">60ml</span></li>
+                <li><span>Agua (para almíbar)</span> <span class="quantity">230ml</span></li>
+                <li><span>Azúcar blanca (para almíbar)</span> <span class="quantity">230g</span></li>
+                <li><span>Esencia de vainilla</span> <span class="quantity">2 g </span></li>
+              </ul>
+              
+              <!-- Steps -->
+              <h4 class="recipe-subtitle">Procedimiento</h4>
+              <ol class="step-list mb-4">
+                <li class="step-item">
+                  <span class="step-number">1</span>
+                  <div class="step-text">Batir la mantequilla con el azúcar hasta obtener una mezcla cremosa, homogénea y de textura similar a una pasta.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">2</span>
+                  <div class="step-text">Tamizar la harina, el polvo de hornear y la sal. Incorporar los ingredientes secos a la mezcla de mantequilla y azúcar en tres partes, batiendo hasta integrar.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">3</span>
+                  <div class="step-text">Batir previamente los huevos e incorporarlos a la preparación en tres partes, continuando el batido hasta obtener una masa homogénea y sin grumos.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">4</span>
+                  <div class="step-text">Verter la masa en un molde previamente preparado y hornear a 170 °C durante aproximadamente 15 minutos, o hasta que el bizcochuelo esté cocido y presente una ligera coloración dorada. Una vez fuera del horno, dejar enfriar antes de continuar con el almíbar y el montaje.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">5</span>
+                  <div class="step-text">Para el almíbar, llevar a cocción el agua y el azúcar hasta obtener una preparación ligeramente espesa. Retirar del fuego y dejar enfriar al ambiente.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">6</span>
+                  <div class="step-text">Incorporar el ron blanco al almíbar una vez retirado del fuego. Bañar los bizcochuelos con el almíbar durante al menos 2 a 3 horas para que los bizcochuelos absorban el sabor del licor.</div>
+                </li>
+              </ol>
+              
+              <!-- Chef Tip -->
+              <div class="chef-tip-box">
+                <h5 class="chef-tip-title"><i class="fa-solid fa-lightbulb"></i> Consejo Profesional</h5>
+                <p class="editorial-body mb-0">Para una mayor integración de sabores, se recomienda dejar reposar los borrachitos bañados en almíbar durante aproximadamente 12 horas antes de su consumo. Aunque en esta preparación se realizó un reposo de 2 a 3 horas, un tiempo de reposo mayor permite que el almíbar se distribuya de manera más uniforme en la miga y favorece una mayor integración del sabor del ron blanco.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Recipe 2: DULCE DE PECHICHE (EDITABLE) -->
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="recipe-card h-100">
+            <img src="assets/PECHICHE-IMAGEN.jpeg" alt="Receta de Dulce de Pechiche" class="recipe-header-img">
+            <div class="recipe-body">
+              <h3 class="serif-font mb-4">Conserva de Dulce de Pechiche</h3>
+              
+              <!-- Recipe Metadata Grid -->
+              <div class="recipe-meta-grid">
+                <div class="recipe-meta-item">
+                  <span class="recipe-meta-label">Prep.</span>
+                  <span class="recipe-meta-value">por determinar</span>
+                </div>
+                <div class="recipe-meta-item">
+                  <span class="recipe-meta-label">Cocción</span>
+                  <span class="recipe-meta-value">por determinar</span>
+                </div>
+                <div class="recipe-meta-item">
+                  <span class="recipe-meta-label">Dificultad</span>
+                  <span class="recipe-meta-value">Bajo</span>
+                </div>
+                <div class="recipe-meta-item">
+                  <span class="recipe-meta-label">Rendimiento</span>
+                  <span class="recipe-meta-value">por determinar</span>
+                </div>
+              </div>
+              
+              <!-- Ingredients -->
+              <h4 class="recipe-subtitle">Ingredientes</h4>
+              <ul class="ingredients-list mb-4">
+                <li><span>Frutos de pechiche frescos</span> <span class="quantity">800 g</span></li>
+                <li><span>Panela granulada o raspadura</span> <span class="quantity">245 g</span></li>
+                <li><span>Panela en polvo</span> <span class="quantity">125 g</span></li>
+                <li><span>Agua </span> <span class="quantity">1.5 litros</span></li>
+                <li><span>Anis estrellado</span> <span class="quantity">5 g</span></li>
+                <li><span>Canela en rama</span> <span class="quantity">5 g</span></li>
+              </ul>
+              
+              <!-- Steps -->
+              <h4 class="recipe-subtitle">Procedimiento</h4>
+              <ol class="step-list mb-4">
+                <li class="step-item">
+                  <span class="step-number">1</span>
+                  <div class="step-text">Lavar y seleccionar los pechiches, retirando aquellos que presenten impurezas o estén en mal estado.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">2</span>
+                  <div class="step-text">Colocar agua en una olla y llevarla al fuego hasta que alcance el hervor.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">3</span>
+                  <div class="step-text">Agregar las especias aromáticas, principalmente canela y clavo de olor, para preparar una infusión que aporte aroma y sabor al dulce.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">4</span>
+                  <div class="step-text">Incorporar los pechiches y cocinar a fuego medio, permitiendo que la fruta se ablande y absorba parte de los sabores de la preparación.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">5</span>
+                  <div class="step-text">Preparar el almíbar en otra olla, incorporando el azúcar morena o panela y el líquido utilizado en la preparación, hasta obtener un jarabe de color oscuro y consistencia ligeramente espesa.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">6</span>
+                  <div class="step-text">Añadir el almíbar a los pechiches y continuar la cocción a fuego medio-bajo, mezclando cuidadosamente para evitar que la fruta se deshaga.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">7</span>
+                  <div class="step-text">Continuar la cocción hasta concentrar los sabores y espesar el líquido, obteniendo una preparación de color oscuro, brillante y con una textura suave.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">8</span>
+                  <div class="step-text">Retirar del fuego y dejar reposar unos minutos para que el dulce termine de adquirir consistencia.</div>
+                </li>
+                <li class="step-item">
+                  <span class="step-number">9</span>
+                  <div class="step-text">Servir el dulce de pechiche, colocando los frutos junto con una parte del almíbar y las especias utilizadas como aromatizantes.</div>
+                </li>
+              </ol>
+              
+              <!-- Chef Tip -->
+              <div class="chef-tip-box">
+                <h5 class="chef-tip-title"><i class="fa-solid fa-lightbulb"></i> Consejo Profesional</h5>
+                <p class="editorial-body mb-0">Para obtener un dulce de pechiche con mejor sabor y textura, se recomienda realizar la cocción a fuego medio-bajo, permitiendo que la fruta absorba lentamente el almíbar y los aromas de las especias. Evitar una cocción excesiva para conservar la forma y textura del pechiche.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. AUDIOVISUAL ARCHIVE SECTION (EMBEDDED VIDEOS WITH TABS)
+       ========================================================================== -->
+  <section id="media" class="section-padding bg-secondary-color" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center" data-aos="fade-up">
+          <div class="editorial-header">
+            <span class="academic-roman">IV. REGISTRO MULTIMEDIA</span>
+            <h2 class="editorial-title">Archivo Audiovisual</h2>
+            <p class="editorial-subtitle">Documentación visual del proceso práctico e investigación del proyecto</p>
+            <div class="editorial-divider"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Grid of Video Cards -->
+      <div class="row g-4 justify-content-center">
+        
+        <!-- Video 1: Preparation Videos (YouTube embed mock) -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="video-card">
+            <div class="video-thumb-wrapper">
+              <img src="https://img.youtube.com/vi/K8cpwK5azjg/maxresdefault.jpg" 
+     alt="Video preparación Borrachitos">
+              <!-- Click to trigger modal video playback -->
+              <button class="video-play-btn"
+        data-bs-toggle="modal"
+        data-bs-target="#videoModal"
+        data-video-type="youtube"
+        data-video-src="K8cpwK5azjg"
+        data-video-title="Elaboración Técnica: Borrachitos Tradicionales"
+        aria-label="Reproducir video">
+    <i class="fa-solid fa-play"></i>
+</button>
+              <span class="video-duration">05:58</span>
+            </div>
+            <div class="video-info">
+              <span class="video-category">Preparación Práctica</span>
+              <h4 class="video-title">Borrachitos</h4>
+              <p class="video-desc">En este video se presenta el proceso de elaboración de los tradicionales Borrachitos, como parte del proyecto de revalorización de preparaciones gastronómicas tradicionales de Guayaquil. Se documentan las principales etapas de su preparación, desde el tratamiento de los ingredientes hasta la elaboración y presentación del producto final, destacando las técnicas culinarias empleadas y la importancia de conservar y transmitir este conocimiento gastronómico.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Video 2: Preparation Videos (Local MP4 placeholder) -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="video-card">
+            <div class="video-thumb-wrapper">
+              <img src="https://img.youtube.com/vi/P-ZHKuTr1ZA/maxresdefault.jpg" alt="Video preparación Pechiche">
+              <button class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal" 
+                      data-video-type="youtube" data-video-src="P-ZHKuTr1ZA" 
+                      data-video-title="Elaboración Técnica: Dulce de Pechiche Ancestral" aria-label="Reproducir video">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <span class="video-duration">03:13</span>
+            </div>
+            <div class="video-info">
+              <span class="video-category">Preparación Práctica</span>
+              <h4 class="video-title">Dulce de Pechiche</h4>
+              <p class="video-desc">Registro audiovisual del proceso de elaboración del tradicional Dulce de Pechiche, realizado como parte del proyecto de revalorización de preparaciones tradicionales de Guayaquil. En este video se documentan las principales etapas de preparación y las técnicas culinarias empleadas para la elaboración de este dulce tradicional.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Video 3: Interview Videos (YouTube embed mock) -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="video-card">
+            <div class="video-thumb-wrapper">
+              <img src="https://img.youtube.com/vi/oYdLMXMp1e0/maxresdefault.jpg" alt="Video Entrevista">
+              <button class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal" 
+                      data-video-type="youtube" data-video-src="oYdLMXMp1e0" 
+                      data-video-title="La Importancia de la Revalorización Dulcera en Guayaquil" aria-label="Reproducir video">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <span class="video-duration">11:16</span>
+            </div>
+            <div class="video-info">
+              <span class="video-category">Entrevista Docente: Chef Andres Santos</span>
+              <h4 class="video-title">Perspectiva Gastronómica</h4>
+              <p class="video-desc">En este video presentamos una entrevista realizada al chef docente Andres Santos como parte del proceso de investigación de nuestro proyecto de grado, enfocado en la revalorización de dulces tradicionales de Guayaquil (dulce de pechiche y los borrachitos).
+
+A través de esta conversación exploramos la importancia de preservar los conocimientos gastronómicos, las técnicas culinarias tradicionales y el valor cultural que representan estos productos dentro de la identidad gastronómica ecuatoriana.
+
+Agradecemos al chef por compartir su experiencia, conocimientos y perspectiva profesional, aportando información fundamental para el desarrollo de esta investigación académica.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="video-card">
+            <div class="video-thumb-wrapper">
+              <img src="https://img.youtube.com/vi/9tj_S2RT2fg/maxresdefault.jpg" alt="Video Entrevista">
+              <button class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal" 
+                      data-video-type="youtube" data-video-src="9tj_S2RT2fg" 
+                      data-video-title="La Importancia de la Revalorización Dulcera en Guayaquil" aria-label="Reproducir video">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <span class="video-duration">5:47</span>
+            </div>
+            <div class="video-info">
+              <span class="video-category">Entrevista Docente: CHEF CRISTIAN MORENO </span>
+              <h4 class="video-title">Perspectiva Gastronómica</h4>
+              <p class="video-desc">En este video presentamos una entrevista realizada al chef docente Cristian Moreno como parte del proceso de investigación de nuestro proyecto de grado, enfocado en la revalorización de dulces tradicionales de Guayaquil (dulce de pechiche y los borrachitos).
+
+A través de esta conversación exploramos la importancia de preservar los conocimientos gastronómicos, las técnicas culinarias tradicionales y el valor cultural que representan estos productos dentro de la identidad gastronómica ecuatoriana.
+
+Agradecemos al chef por compartir su experiencia, conocimientos y perspectiva profesional, aportando información fundamental para el desarrollo de esta investigación académica.</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="video-card">
+            <div class="video-thumb-wrapper">
+              <img src="https://img.youtube.com/vi/_cCn_khk9E4/maxresdefault.jpg" alt="Video Entrevista">
+              <button class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal" 
+                      data-video-type="youtube" data-video-src="_cCn_khk9E4" 
+                      data-video-title="La Importancia de la Revalorización Dulcera en Guayaquil" aria-label="Reproducir video">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <span class="video-duration">07:12</span>
+            </div>
+            <div class="video-info">
+              <span class="video-category">Entrevista Docente: CHEF MANUEL ROMERO</span>
+              <h4 class="video-title">Perspectiva Gastronómica</h4>
+              <p class="video-desc">En este video presentamos una entrevista realizada al chef docente Manuel Romero como parte del proceso de investigación de nuestro proyecto de grado, enfocado en la revalorización de dulces tradicionales de Guayaquil (dulce de pechiche y los borrachitos).
+
+A través de esta conversación exploramos la importancia de preservar los conocimientos gastronómicos, las técnicas culinarias tradicionales y el valor cultural que representan estos productos dentro de la identidad gastronómica ecuatoriana.
+
+Agradecemos al chef por compartir su experiencia, conocimientos y perspectiva profesional, aportando información fundamental para el desarrollo de esta investigación académica.</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="video-card">
+            <div class="video-thumb-wrapper">
+              <img src="https://img.youtube.com/vi/GaT8YsXSB20/maxresdefault.jpg" alt="Video Entrevista">
+              <button class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal" 
+                      data-video-type="youtube" data-video-src="GaT8YsXSB20" 
+                      data-video-title="La Importancia de la Revalorización Dulcera en Guayaquil" aria-label="Reproducir video">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <span class="video-duration">03:55</span>
+            </div>
+            <div class="video-info">
+              <span class="video-category">Entrevista Docente: CHEF RUBEN VEGA</span>
+              <h4 class="video-title">Perspectiva Gastronómica</h4>
+              <p class="video-desc">En este video presentamos una entrevista realizada al chef docente Ruben Vega como parte del proceso de investigación de nuestro proyecto de grado, enfocado en la revalorización de dulces tradicionales de Guayaquil (dulce de pechiche y los borrachitos).
+
+A través de esta conversación exploramos la importancia de preservar los conocimientos gastronómicos, las técnicas culinarias tradicionales y el valor cultural que representan estos productos dentro de la identidad gastronómica ecuatoriana.
+
+Agradecemos al chef por compartir su experiencia, conocimientos y perspectiva profesional, aportando información fundamental para el desarrollo de esta investigación académica</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- ==========================================================================
+       9. CHEF INTERVIEWS SECTION
+       ========================================================================== -->
+  <section id="interviews" class="section-padding bg-secondary-color" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center" data-aos="fade-up">
+          <div class="editorial-header">
+            <span class="academic-roman">V. PERSPECTIVA DE EXPERTOS</span>
+            <h2 class="editorial-title">Voces de la Gastronomía</h2>
+            <p class="editorial-subtitle">Testimonios y reflexiones de profesionales de la gastronomía sobre la revalorización de los dulces tradicionales de Guayaquil.</p>
+            <div class="editorial-divider"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-lg-9" data-aos="fade-up">
+          <!-- Chef Interview Card (EDITABLE) -->
+          <div class="chef-card text-center">
+            <img src="assets/chef andres santos.jpeg" alt="Chef Andres Santos" class="chef-profile-img">
+            <h3 class="chef-name">Chef Andres Santos</h3>
+            <span class="chef-title">Docente – Escuela de los Chefs (Guayaquil)</span>
+            
+            <p class="chef-quote">
+              "La gastronomía ecuatoriana no necesita ser rescatada; necesita ser revalorizada"
+            </p>
+            <!-- Link to trigger Modal Video -->
+            <a href="#" class="chef-video-link" data-bs-toggle="modal" data-bs-target="#videoModal" 
+               data-video-type="youtube" data-video-src="oYdLMXMp1e0" 
+               data-video-title="Entrevista Completa: Chef Andres Santos">
+              <i class="fa-solid fa-circle-play"></i> Ver Video de la Entrevista
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-9" data-aos="fade-up">
+          <!-- Chef Interview Card (EDITABLE) -->
+          <div class="chef-card text-center">
+            <img src="assets/chef cristian moreno.jpeg" alt="Chef CRISTIAN MORENO" class="chef-profile-img">
+            <h3 class="chef-name">Chef Cristian Moreno</h3>
+            <span class="chef-title">Docente – Escuela de los Chefs (Guayaquil)</span>
+            
+            <p class="chef-quote">
+              "El principal vacío no está en la receta, sino en la difusión de estos dulces tradicionales"
+            </p>
+            <!-- Link to trigger Modal Video -->
+            <a href="#" class="chef-video-link" data-bs-toggle="modal" data-bs-target="#videoModal" 
+               data-video-type="youtube" data-video-src="9tj_S2RT2fg" 
+               data-video-title="Entrevista Completa: Chef CRISTIAN MORENO">
+              <i class="fa-solid fa-circle-play"></i> Ver Video de la Entrevista
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-9" data-aos="fade-up">
+          <!-- Chef Interview Card (EDITABLE) -->
+          <div class="chef-card text-center">
+            <img src="assets/chef manuel romero.jpeg" alt="Chef Manuel Romero" class="chef-profile-img">
+            <h3 class="chef-name">Chef Manuel Romero</h3>
+            <span class="chef-title">Docente – Escuela de los Chefs (Guayaquil)</span>
+
+            <p class="chef-quote">
+              "No basta con presentar la receta; es necesario acompañarla de la historia y del conocimiento ancestral que le da valor"
+            </p>
+            <p class="chef-quote">
+              "La buena gastronomía nunca pasa de moda, especialmente cuando se trata de cocina tradicional y ancestral"
+            </p>
+            <!-- Link to trigger Modal Video -->
+            <a href="#" class="chef-video-link" data-bs-toggle="modal" data-bs-target="#videoModal" 
+               data-video-type="youtube" data-video-src="_cCn_khk9E4" 
+               data-video-title="Entrevista Completa: Chef Manuel Romero">
+              <i class="fa-solid fa-circle-play"></i> Ver Video de la Entrevista
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-9" data-aos="fade-up">
+          <!-- Chef Interview Card (EDITABLE) -->
+          <div class="chef-card text-center">
+            <img src="assets/chef ruben vega.jpeg" alt="Chef Rubén Vega" class="chef-profile-img">
+            <h3 class="chef-name">Chef Rubén Vega</h3>
+            <span class="chef-title">Docente – Escuela de los Chefs (Guayaquil)</span>
+            
+            <p class="chef-quote">
+              "Una plataforma digital permitiría a todos acceder a la misma información y hablar el mismo idioma"
+            </p>
+            <!-- Link to trigger Modal Video -->
+            <a href="#" class="chef-video-link" data-bs-toggle="modal" data-bs-target="#videoModal" 
+               data-video-type="youtube" data-video-src="GaT8YsXSB20" 
+               data-video-title="Entrevista Completa: Chef Rubén Vega">
+              <i class="fa-solid fa-circle-play"></i> Ver Video de la Entrevista
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       10. BIBLIOGRAPHY SECTION (APA 7th STYLE CARDS)
+       ========================================================================== -->
+  <section id="bibliography" class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center" data-aos="fade-up">
+          <div class="editorial-header">
+            <span class="academic-roman">VI. ANEXO DE REFERENCIAS</span>
+            <h2 class="editorial-title">Bibliografía Académica</h2>
+            <p class="editorial-subtitle">Fuentes y literatura científica que sustentan el proyecto de investigación (APA 7)</p>
+            <div class="editorial-divider"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <!-- Reference Card 1 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="bibliography-card">
+            <i class="fa-solid fa-quote-right bib-icon"></i>
+            <div class="bib-citation">
+              Granda, S. (2017) <span class="italic">Guayaquil a fuego lento.</span>. 
+            </div>
+            <button class="bib-copy-btn">Copiar Cita</button>
+          </div>
+        </div>
+        
+        <!-- Reference Card 2 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="bibliography-card">
+            <i class="fa-solid fa-quote-right bib-icon"></i>
+            <div class="bib-citation">
+              Gobierno Autónomo Descentralizado Municipal de Guayaquil. (2020). <span class="italic">Memoria de la biodiversidad del cantón Guayaquil.</span>. Universidad de Guayaquil.
+            </div>
+            <button class="bib-copy-btn">Copiar Cita</button>
+          </div>
+        </div>
+        
+        <!-- Reference Card 3 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="bibliography-card">
+            <i class="fa-solid fa-quote-right bib-icon"></i>
+            <div class="bib-citation">
+              Ortiz, T. (2020, 13 de marzo).<span class="italic">El dulce de pechiche, una tradición en Vinces. Expreso.</span>
+            </div>
+            <button class="bib-copy-btn">Copiar Cita</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       12. AUTHORS & ACADEMIC CONTEXT SECTION
+       ========================================================================== -->
+  <section id="authors" class="section-padding bg-secondary-color" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center" data-aos="fade-up">
+          <div class="editorial-header">
+            <span class="academic-roman">VII. CUERPO DE INVESTIGACIÓN</span>
+            <h2 class="editorial-title">Autores </h2>
+            <p class="editorial-subtitle">Estudiantes responsables del desarrollo de la pagina web</p>
+            <div class="editorial-divider"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6" data-aos="fade-up">
+          <!-- Author Card (EDITABLE) -->
+          <div class="author-card text-center">
+            <!-- Student Photo (using professional placeholder) -->
+            <img src="assets/henrry-muñoz.jpeg" alt="Henrry Samuel Muñoz Hernandez" class="author-img">
+            <h3 class="serif-font mb-2">Henrry Samuel Muñoz Hernandez</h3>
+            <p class="text- mb-4">Investigador(a) Principal</p>
+            
+            <!-- Academic Metadata Table-style List -->
+            <ul class="author-meta-list">
+              <li class="author-meta-item">
+                <span class="author-meta-label">Institución</span>
+                <span class="author-meta-value">Escuela de los Chefs</span>
+              </li>
+              <li class="author-meta-item">
+                <span class="author-meta-label">Carrera</span>
+                <span class="author-meta-value">Gastronomía</span>
+              </li>
+              <li class="author-meta-item">
+                <span class="author-meta-label">Proyecto</span>
+                <span class="author-meta-value">Proyecto de Grado para Titulación</span>
+              </li>
+              <li class="author-meta-item">
+                <span class="author-meta-label">Tutor Académico</span>
+                <span class="author-meta-value">Chef Manolo Romero</span>
+              </li>
+              <li class="author-meta-item">
+                <span class="author-meta-label">Año Lectivo</span>
+                <span class="author-meta-value">2026</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-8 col-lg-6" data-aos="fade-up">
+          <!-- Author Card (EDITABLE) -->
+          <div class="author-card text-center">
+            <!-- Student Photo (using professional placeholder) -->
+            <img src="assets/elvis-zambrano.jpeg" alt="Elvis Zambrano" class="author-img">
+            <h3 class="serif-font mb-2">Elvis Antonio Zambrano Pilay</h3>
+            <p class="text- mb-4">Investigador(a) Principal</p>
+            
+            <!-- Academic Metadata Table-style List -->
+            <ul class="author-meta-list">
+              <li class="author-meta-item">
+                <span class="author-meta-label">Institución</span>
+                <span class="author-meta-value">Escuela de los Chefs</span>
+              </li>
+              <li class="author-meta-item">
+                <span class="author-meta-label">Carrera</span>
+                <span class="author-meta-value">Gastronomía</span>
+              </li>
+              <li class="author-meta-item">
+                <span class="author-meta-label">Proyecto</span>
+                <span class="author-meta-value">Proyecto de Grado para Titulación</span>
+              </li>
+              <li class="author-meta-item">
+                <span class="author-meta-label">Tutor Académico</span>
+                <span class="author-meta-value">Chef Manolo Romero</span>
+              </li>
+              <li class="author-meta-item">
+                <span class="author-meta-label">Año Lectivo</span>
+                <span class="author-meta-value">2026</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- ==========================================================================
+       12. MINIMALIST CONTACT & GOOGLE MAPS SECTION
+       ========================================================================== -->
+  <section id="contact" class="section-padding text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center" data-aos="fade-up">
+          <div class="editorial-header">
+            <span class="academic-roman">VIII. VÍNCULO INSTITUCIONAL</span>
+            <h2 class="editorial-title">Contacto</h2>
+            <p class="editorial-subtitle">Establezca contacto a través de los canales institucionales</p>
+            <div class="editorial-divider"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row align-items-center mt-4">
+        <div class="col-lg-5 mb-5 mb-lg-0 text-lg-start" data-aos="fade-right">
+          <h3 class="serif-font mb-3">Escuela de los Chefs</h3>
+          <p class="editorial-body">
+            Este proyecto ha sido desarrollado bajo la tutela y con los recursos técnicos de la Escuela de los Chefs de Guayaquil, Ecuador, sirviendo como un aporte directo a la comunidad gastronómica local.
+          </p>
+          
+          <div class="contact-info-block mt-4">
+            <span class="recipe-meta-label d-block text-lg-start">Contacto - elvis zambrano</span>
+            <!-- EDITABLE Email -->
+            <a href="mailto:elvis.zambrano@laescueladeloschefs.edu.ec" class="contact-email-link">elvis.zambrano@laescueladeloschefs.edu.ec</a>
+          </div>
+          <div class="contact-info-block mt-4">
+            <span class="recipe-meta-label d-block text-lg-start">Contacto - henrry muñoz</span>
+            <!-- EDITABLE Email -->
+            <a href="mailto:henrry.munoz@laescueladeloschefs.edu.ec" class="contact-email-link">henrry.munoz@laescueladeloschefs.edu.ec</a>
+          </div>
+          <!-- Official Social Icons ONLY -->
+          <div class="social-links justify-content-lg-start">
+            <a href="https://www.instagram.com/tec.laescueladeloschefs/?hl=es" target="_blank" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/laescueladeloschefs" target="_blank" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/deloschefs" target="_blank" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.youtube.com/@LaEscueladelosChefs" target="_blank" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-7" data-aos="fade-left">
+          <!-- Responsive Google Map Showing Escuela de los Chefs, Guayaquil, Ecuador -->
+          <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.9686378353535!2d-79.89642675983565!3d-2.165634497824216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6dbfa9f47715%3A0x28bd79cfb9705b4c!2sLa%20Escuela%20de%20los%20Chefs%20-%20Guayaquil!5e0!3m2!1ses-419!2sec!4v1786527325371!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       13. FOOTER (MINIMALIST & ACADEMIC)
+       ========================================================================== -->
+  <footer class="footer-section text-center">
+    <div class="container">
+      <div class="university-logo-placeholder">
+        ESCUELA DE LOS CHEFS <span>GUAYAQUIL</span>
+      </div>
+      
+      <!-- Quick Navigation links -->
+      <div class="footer-nav">
+        <a href="#home" class="footer-nav-link">Inicio</a>
+        <a href="#about" class="footer-nav-link">El Proyecto</a>
+        <a href="#sweets" class="footer-nav-link">Sweets</a>
+        <a href="#recipes" class="footer-nav-link">Recetas</a>
+        <a href="#media" class="footer-nav-link">Archivo</a>
+        <a href="#gallery" class="footer-nav-link">Galería</a>
+        <a href="#interviews" class="footer-nav-link">Entrevistas</a>
+      </div>
+      
+      <div class="footer-divider"></div>
+      
+      <p class="footer-copy mb-0">
+        © 2026 Escuela de los Chefs. Proyecto de Titulación de Grado. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       14. SPECIAL FLOATING FEATURES (BACK TO TOP)
+       ========================================================================== -->
+  <button id="back-to-top" class="back-to-top" aria-label="Volver arriba">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ==========================================================================
+       15. DYNAMIC AUDIOVISUAL MODAL CONTAINER
+       ========================================================================== -->
+  <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="videoModalLabel">Archivo de Video</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body" id="videoPlayerContainer">
+          <!-- Dynamically filled with script.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       16. CUSTOM INTERACTIVE LIGHTBOX CONTAINER
+       ========================================================================== -->
+  <div id="customLightbox" class="custom-lightbox">
+    <button class="lightbox-btn lightbox-close" id="lightboxClose" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-btn lightbox-prev" id="lightboxPrev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="lightbox-btn lightbox-next" id="lightboxNext" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+    
+    <div class="lightbox-content-wrapper">
+      <img id="lightboxImg" class="lightbox-img" src="" alt="Vista ampliada de la galería">
+      <div class="lightbox-caption">
+        <h4 id="lightboxTitle" class="serif-font">Título de Imagen</h4>
+        <p id="lightboxCategory">Categoría</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       17. THIRD-PARTY JAVASCRIPT LIBRARIES & SCRIPTS
+       ========================================================================== -->
+  <!-- Bootstrap 5 Bundle JS (Includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- AOS Scroll Animations JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  
+  <!-- Custom Interactive JS -->
+  <script src="script.js"></script>
+</body>
+</html>
